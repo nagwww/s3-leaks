@@ -13,4 +13,4 @@ Feel free to send in a PR if you know of other leaks
 |               | 14 million Verizon customers data                             |
 
 
-## List of GCP Leaks
+## List of other cloud leaks
