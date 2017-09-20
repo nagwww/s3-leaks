@@ -6,7 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
-|Sep 2017 | <a href="https://www.theregister.co.uk/2017/09/19/viacom_exposure_in_aws3_bucket_blunder/"> Viacom : Open S3 bucket with AWS Keys, passwords, other sensitive info </a>||
+|Sep 2017 | <a href="https://www.theregister.co.uk/2017/09/19/viacom_exposure_in_aws3_bucket_blunder/"> Viacom : Open S3 bucket with AWS Keys, passwords, other sensitive info </a>|S3 bucket|
 | Sep 2017      | <a href="https://www.theregister.co.uk/2017/09/04/us_security_clearance_aws_breach/">Leaky S3 bucket sloshes deets of thousands with US security clearance</a>| - Bucket open to the world in the test account|
 |Sep 2017       | <a href="http://gizmodo.com/millions-of-time-warner-customer-records-exposed-in-thi-1798701579">Millions of Time Warner Cable Customer Records Exposed in Third-Party Data Leak </a> ||
 |August 2017    | <a href="http://www.informationsecuritybuzz.com/expert-comments/indian-creditseva-data-breach/"> Indian Creditseva Data Breach</a> ||
