@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+| Nov 2017 | <a href="http://deathrattlesports.com/australia-data-leak-nearly-50000-government-and-private-staffers-sensitive-data-publicly-exposed/141646"> Australia data leak: Nearly 50,000 government and private staffers’ sensitive data publicly exposed</a>||
 | Oct 2017 | <a href="http://www.zdnet.com/article/accenture-left-a-huge-trove-of-client-passwords-on-exposed-servers/"> How A Cloud Leak Exposed Accenture's Business</a>||
 |Sep 2017 | <a href="https://www.theregister.co.uk/2017/09/19/viacom_exposure_in_aws3_bucket_blunder/"> Viacom : Open S3 bucket with AWS Keys, passwords, other sensitive info </a>|S3 bucket open to the world|
 | Sep 2017      | <a href="https://www.theregister.co.uk/2017/09/04/us_security_clearance_aws_breach/">Leaky S3 bucket sloshes deets of thousands with US security clearance</a>| - Bucket open to the world in the test account|
