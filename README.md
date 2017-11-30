@@ -6,7 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
-|Nov 2017 | <a href="http://www.zdnet.com/article/nsa-leak-inscom-exposes-red-disk-intelligence-system/">NSA leak exposes Red Disk, the Army's failed intelligence system||
+|Nov 2017 | <a href="http://www.zdnet.com/article/nsa-leak-inscom-exposes-red-disk-intelligence-system/">NSA leak exposes Red Disk, the Army's failed intelligence system|100 gigabytes of data from an Army intelligence project, codenamed "Red Disk."|
   | Nov 2017 | <a href="http://deathrattlesports.com/australia-data-leak-nearly-50000-government-and-private-staffers-sensitive-data-publicly-exposed/141646"> Australia data leak: Nearly 50,000 government and private staffers’ sensitive data publicly exposed</a>|S3 bucket left open by a contractor|
 | Oct 2017 | <a href="http://www.zdnet.com/article/accenture-left-a-huge-trove-of-client-passwords-on-exposed-servers/"> How A Cloud Leak Exposed Accenture's Business</a>||
 | Oct 2017 | <a href="https://mackeepersecurity.com/post/patient-home-monitoring-service-leaks-private-medical-data-online">Patient Home Monitoring Service Leaks Private Medical Data Online</a>| publically accessible Amazon S3 47.5 GB / 316,363 |
