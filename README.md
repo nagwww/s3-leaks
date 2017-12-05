@@ -7,6 +7,7 @@ Feel free to send in a PR if you know of other leaks
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
 | Nov 2017|<a href="https://www.upguard.com/breaches/credit-crunch-national-credit-federation">111 GB of internal customer information from National Credit Federation, a Tampa, Florida-based credit repair service</a>|- SSN - Drivers licesne, credit reports |
+| Nov 2017|<a href="https://blog.zwillgen.com/2017/09/05/s3-buckets-not-simple/"> Uber, the hack happend couple months back was brought to light in Nov 2017>|personal information of 57 million Uber users and driver's license numbers |
 |Nov 2017 | <a href="http://www.zdnet.com/article/nsa-leak-inscom-exposes-red-disk-intelligence-system/">NSA leak exposes Red Disk, the Army's failed intelligence system|100 gigabytes of data from an Army intelligence project, codenamed "Red Disk."|
   | Nov 2017 | <a href="http://deathrattlesports.com/australia-data-leak-nearly-50000-government-and-private-staffers-sensitive-data-publicly-exposed/141646"> Australia data leak: Nearly 50,000 government and private staffers’ sensitive data publicly exposed</a>|S3 bucket left open by a contractor|
 | Oct 2017 | <a href="http://www.zdnet.com/article/accenture-left-a-huge-trove-of-client-passwords-on-exposed-servers/"> How A Cloud Leak Exposed Accenture's Business</a>||
