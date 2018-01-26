@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+| Jan 22 | <a href="https://www.scmagazineuk.com/sensitive-medical-records-on-aws-bucket-found-to-be-publicly-accessible/article/738421/"> Sensitive medical records on AWS bucket found to be publicly accessible</a> ||
 | Dec 2017 | <a href="http://www.zdnet.com/article/alteryx-s3-leak-leaves-120m-american-households-exposed/">Alteryx leave S3 bucket open for anonymous user : 120m american households exposed|Home addresses, contact information, mortgage status, financial histories|
 | Nov 2017|<a href="https://www.upguard.com/breaches/credit-crunch-national-credit-federation">111 GB of internal customer information from National Credit Federation, a Tampa, Florida-based credit repair service</a>|- SSN - Drivers licesne, credit reports |
 | Nov 2017|<a href="https://blog.zwillgen.com/2017/09/05/s3-buckets-not-simple/"> Uber, the hack happend couple months back was brought to light in Nov 2017>|personal information of 57 million Uber users and driver's license numbers |
