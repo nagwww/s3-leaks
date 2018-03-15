@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+| Mar 2018|<a href="https://thenextweb.com/security/2018/03/14/jewelry-site-accidentally-leaks-personal-details-plaintext-passwords-1-3m-users/">ewelry site accidentally leaks personal details (and plaintext passwords!) of 1.3M users</a>|addresses, zip-codes, e-mail addresses, and IP addresses. He also claims the database contained plaintext passwords||
 | Feb | <a href="https://www.upguard.com/breaches/cloud-leak-octoly">S3 bucket open to world : Octoly</a>|real names, addresses, phone numbers, email addresses|
 | Jan 22 | <a href="https://www.scmagazineuk.com/sensitive-medical-records-on-aws-bucket-found-to-be-publicly-accessible/article/738421/"> Sensitive medical records on AWS bucket found to be publicly accessible</a> ||
 | Dec 2017 | <a href="http://www.zdnet.com/article/alteryx-s3-leak-leaves-120m-american-households-exposed/">Alteryx leave S3 bucket open for anonymous user : 120m american households exposed|Home addresses, contact information, mortgage status, financial histories|
