@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+| Oct 2018|<a href="https://www.healthcareitnews.com/news/update-misconfigured-database-breaches-thousands-medcall-advisors-patient-files">Misconfigured database breaches thousands of MedCall Advisors patient files</a>|names, email and postal addresses, phone numbers, dates of birth and Social Security numbers. Other files had recordings of patient evaluations and conversations with doctors, along with medications, allergies and other detailed personal health data.|
 | Mar 2018|<a href="https://thenextweb.com/security/2018/03/14/jewelry-site-accidentally-leaks-personal-details-plaintext-passwords-1-3m-users/">Jewelry site accidentally leaks personal details (and plaintext passwords!) of 1.3M users</a>|addresses, zip-codes, e-mail addresses, and IP addresses. He also claims the database contained plaintext passwords||
 | Feb | <a href="https://www.upguard.com/breaches/cloud-leak-octoly">S3 bucket open to world : Octoly</a>|real names, addresses, phone numbers, email addresses|
 | Jan 22 | <a href="https://www.scmagazineuk.com/sensitive-medical-records-on-aws-bucket-found-to-be-publicly-accessible/article/738421/"> Sensitive medical records on AWS bucket found to be publicly accessible</a> ||
