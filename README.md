@@ -31,6 +31,7 @@ Feel free to send in a PR if you know of other leaks
 |May 2017       |<a href="https://www.theregister.co.uk/2017/06/01/us_national_geospatial_intelligence_agency_leak/"> Security company finds unsecured bucket of US military images on AWS</a> ||
 | April 2017    | <a href="https://threatpost.com/auto-lender-exposes-loan-data-for-up-to-1-million-applicants/125216/">A California auto loan company left the names, addresses, credit scores and partial Social Security numbers of up to 1 million people exposed </a>         | |
 | Feb 2017 | <a href="https://threatpost.com/childrens-voice-messages-leaked-in-cloudpets-database-breach/123956/"> CHILDREN’S VOICE MESSAGES LEAKED IN CLOUDPETS DATABASE BREACH </a> ||
+| Jan 2017 | <a href="https://tutorgeeks.blogspot.com/2017/04/aws-s3-bucket-misconfiguration.html"> Paytm S3 bucket misconfiguration allowing PUT operations</a> ||
 | March 2013    | <a href="https://www.helpnetsecurity.com/2013/03/27/thousands-of-amazon-s3-buckets-left-open-exposing-private-data/">Thousands of Amazon S3 buckets left open exposing private data</a> |             |
 
 
