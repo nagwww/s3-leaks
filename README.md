@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+|June 2020 | <a href="https://cloudsek.com/threatintelligence/7-2-million-records-were-exposed-but-not-from-the-bhim-app/">"7.2 million records were exposed, but not from the BHIM app"| | |
 | Oct 2018|<a href="https://www.healthcareitnews.com/news/update-misconfigured-database-breaches-thousands-medcall-advisors-patient-files">Misconfigured database breaches thousands of MedCall Advisors patient files</a>|names, email and postal addresses, phone numbers, dates of birth and Social Security numbers. Other files had recordings of patient evaluations and conversations with doctors, along with medications, allergies and other detailed personal health data.|
 | Jun 2019|<a href="https://www.zdnet.com/article/aws-s3-server-leaks-data-from-fortune-100-companies-ford-netflix-td-bank/">AWS S3 server leaks data from Fortune 100 companies: Ford, Netflix, TD Bank</a>|Attunity, an Israeli IT firm that provides data management, warehousing, and replication services for the world's biggest companies, has exposed some of its customers' data after it left three Amazon S3 buckets exposed on the internet without a password.|
 | May 2019    | <a href="https://www.upguard.com/breaches/attunity-data-leak"> How a Vendor for Half the Fortune 100 Exposed a Terabyte of Backups</a> ||
