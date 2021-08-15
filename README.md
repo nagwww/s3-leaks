@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+| Aug2020      |<a href="https://www.hackread.com/s3-bucket-exposed-senior-us-canada-citizens-data//"> S3 bucket mess up exposed 182GB of senior US, Canada citizens data|The misconfigured S3 bucket was owned by SeniorAdvisor, a consumer ratings and reviews website. |
 | July2020      |<a href="https://www.theregister.com/2020/07/21/twilio_sdk_code_injection/"> Twilio: Someone broke into our unsecured AWS S3 silo, added 'non-malicious' code to our JavaScript SDK|Attackers tried to update the javascript library hosted on the s3 buckets so this can be picked up by other clients |
 |Jan 2020 | <a href="https://www.computerweekly.com/news/252476870/Exposed-AWS-buckets-again-implicated-in-multiple-data-leaks">"Exposed AWS buckets again implicated in multiple data leaks"</a>| Passport scans, tax documents, background checks, job applications, expense claims, contracts, emails and salary details relating to thousands of consultants working in the UK were exposed.|
 |June 2020 | <a href="https://cloudsek.com/threatintelligence/7-2-million-records-were-exposed-but-not-from-the-bhim-app/">"7.2 million records were exposed, but not from the BHIM app"| | |
