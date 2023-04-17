@@ -44,7 +44,7 @@ Feel free to send in a PR if you know of other leaks
 
 
 
-## Elastic Search
+## ElasticSearch
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
 | Sep 2017    |<a href="https://threatpost.com/thousands-of-elasticsearch-servers-hijacked-to-host-pos-malware/127965/"> AWS hosted elastic search servers hijacked </a>| |
