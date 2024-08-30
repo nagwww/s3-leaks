@@ -7,6 +7,7 @@ Feel free to send in a PR if you know of other leaks
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
 |Oct 2023      | <a href="https://techcrunch.com/2023/10/02/india-national-logistics-portal-marine-data-expose">India’s national logistics portal exposed sensitive personal data, trade records</a>| Exposed sensitive personal data and various state and private trade records.|
+|Jan 2023      | <a href="https://medium.com/@syednashetali/pegasus-airlines-leaked-6-5tb-of-data-in-aws-s3-bucket-mess-up-5db20d96517e">Pegasus Airlines Leaked 6.5TB of Data in AWS S3 Bucket Mess Up</a>| Airlines Leaked 6.5TB|
 |Aug 2022      | <a href="https://www.darkreading.com/application-security/cloud-misconfig-exposes-3tb-sensitive-airport-data-amazon-s3-bucket">Cloud Misconfig Exposes 3TB of Sensitive Airport Data in Amazon S3 Bucket: 'Lives at Stake'</a>| That is sure a lot of data on S3|
 |July 2022      | <a href="https://www.theregister.com/2022/12/20/mcgraw_hills_s3_buckets_exposed/">McGraw Hill's S3 buckets exposed 100,000 students' grades and personal info</a>| 22 TB of data and over 117 million files|
 | Aug2020      |<a href="https://www.hackread.com/s3-bucket-exposed-senior-us-canada-citizens-data//"> S3 bucket mess up exposed 182GB of senior US, Canada citizens data|The misconfigured S3 bucket was owned by SeniorAdvisor, a consumer ratings and reviews website. |
