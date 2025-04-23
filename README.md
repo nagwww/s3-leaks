@@ -6,6 +6,7 @@ Feel free to send in a PR if you know of other leaks
 
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
+|April 2025    | <a href="https://cybernews.com/security/aws-cloud-storage-bucket-ransomware-attacks/"> Thoughts of AWS Access key ID's from an S3 bucket | The keys to the AWS kingdom | 
 |Oct 2023      | <a href="https://techcrunch.com/2023/10/02/india-national-logistics-portal-marine-data-expose">India’s national logistics portal exposed sensitive personal data, trade records</a>| Exposed sensitive personal data and various state and private trade records.|
 |Jan 2023      | <a href="https://medium.com/@syednashetali/pegasus-airlines-leaked-6-5tb-of-data-in-aws-s3-bucket-mess-up-5db20d96517e">Pegasus Airlines Leaked 6.5TB of Data in AWS S3 Bucket Mess Up</a>| Airlines Leaked 6.5TB|
 |Aug 2022      | <a href="https://www.darkreading.com/application-security/cloud-misconfig-exposes-3tb-sensitive-airport-data-amazon-s3-bucket">Cloud Misconfig Exposes 3TB of Sensitive Airport Data in Amazon S3 Bucket: 'Lives at Stake'</a>| That is sure a lot of data on S3|
