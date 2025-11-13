@@ -51,3 +51,17 @@ Feel free to send in a PR if you know of other leaks
 |Date           | Description                         |Notes  |
 | ------------- | --------------------------------------------------------------|------------- |
 | Sep 2017    |<a href="https://threatpost.com/thousands-of-elasticsearch-servers-hijacked-to-host-pos-malware/127965/"> AWS hosted elastic search servers hijacked </a>| |
+
+## AWS IAM Static credentials 
+# Public Incidents Involving Exposed AWS IAM Static Keys or AWS Credentials
+
+| # | Organization / Date | Root Cause / Credential Exposure | Impact & Details | Relevance to Static Keys / S3 Usage |
+|---|----------------------|----------------------------------|------------------|--------------------------------------|
+| **1** | **Uber (2014 & 2016)** | In 2014: an engineer posted an AWS access key in a public GitHub repo. In 2016: attackers used stolen GitHub employee credentials to access a private repo and discovered AWS keys. | 2014: ~100k driver records + PII accessed. 2016: ~57M users + 600k driver license numbers exposed. | Classic hard-coded access key scenario → attackers gained S3 access directly via leaked static keys. |
+| **2** | **Capital One (2019)** | Attacker exploited SSRF to access EC2 metadata service → retrieved IAM role credentials (long-lived privileges) → used to list/sync S3 buckets. | ~100M+ customer records from S3 buckets (names, DOB, 140k SSNs, 80k bank account numbers). | Shows how long-lived AWS credentials (even roles) can enable massive S3 exfiltration when mis-scoped. |
+| **3** | **Large-scale AWS Keys Database & Ransomware Campaign (2025)** | Public server exposed >158M AWS secret key records; 1,229 active keys used to encrypt S3 buckets and demand ransom. | Attackers encrypted S3 data using SSE-C without owner awareness. | Demonstrates that static keys become commodities → direct ransomware targeting S3. |
+| **4** | **Large Leak of Environment Variables (2024)** | Palo Alto Networks study: >90,000 leaked `.env` files; 1,185 contained AWS access keys. | Keys leaked from repos, CI/CD logs, misconfigured files. | Reinforces that static/long-lived keys end up everywhere → high-risk credentials. |
+| **5** | **Developer Canary Token Test (2024)** | Researcher placed a fake AWS key on GitHub; it was used within **minutes** (days when placed only on a website). | Demonstrated active scanning for AWS keys in public code. | Proves exposure-to-compromise window is minutes → rapid detection & rotation required. |
+| **6** | **AWS Engineer Leak (Jan 2020)** | Public GitHub repo by an AWS engineer contained system credentials including AWS key-pairs (one named `rootkey.csv`). | Repo discovered within ~30 minutes; AWS remediated same day. | Even cloud vendors have human error → continuous scanning is essential. |
+| **7** | **Generic Code-Repo Exposures (2019–2020)** | Multiple cases of AWS keys committed to GitHub/VCS; Medium posts highlight accidental leaks & attacker automation. | Often unnoticed but cumulatively large attack surface. | Emphasizes importance of scanning for `AKIA...`, reviewing last-used dates, disabling stale keys. |
+| **8** | **Honey-Bucket S3 Recon Research (2023)** | Researchers deployed honey-buckets showing automated scans/downloads/deletes as soon as credentials or endpoints surfaced. | Showed constant automated reconnaissance in the wild. | Demonstrates that once keys or endpoints leak, S3 becomes an immediate target. |
